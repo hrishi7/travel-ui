@@ -120,10 +120,10 @@ export default function Activity() {
   };
 
   useEffect(async() => {
-    let result1 = await axios.get('http://my-json-server.typicode.com/rivitest001/task01/posts');
-    let result2 = await axios.get('http://my-json-server.typicode.com/rivitest001/task02/posts');
-    let result3 = await axios.get('http://my-json-server.typicode.com/rivitest001/task03/posts');
-    let result4 = await axios.get('http://my-json-server.typicode.com/rivitest001/task04/posts');
+    let result1 = await axios.get('https://my-json-server.typicode.com/rivitest001/task01/posts');
+    let result2 = await axios.get('https://my-json-server.typicode.com/rivitest001/task02/posts');
+    let result3 = await axios.get('https://my-json-server.typicode.com/rivitest001/task03/posts');
+    let result4 = await axios.get('https://my-json-server.typicode.com/rivitest001/task04/posts');
 
         let temp = [];
         result1.data.forEach((each,i)=>{
